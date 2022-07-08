@@ -1,3 +1,3 @@
 # exampleWeek1
 
-![image](https://user-images.githubusercontent.com/77270310/177926638-5d87fa9c-4c76-441f-9e35-bbb20af72bfb.png)
+![image](https://user-images.githubusercontent.com/77270310/177927352-a12b964a-9b8e-4432-8caa-5654f7540193.png)
