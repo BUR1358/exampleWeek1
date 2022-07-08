@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">exampleWeek1</string>
+    <string name="title_text">Основные компоненты андроид:\n- Activity\n- Fragment\n- Service\n- Intent\n- ContentProvider\n- Broadcast Receiver</string>
+    <string name="activityBtnText">Пример Activity</string>
+    <string name="fragmentBtnText">Пример Fragment</string>
+    <string name="serviceBtnText">Пример Service</string>
+    <string name="intentBtnText">Пример Intent</string>
+    <string name="contentProviderBtnText">Пример ContentProvider</string>
+    <string name="broadcastReceiverBtnText">Пример Broadcast Receiver</string>
+    <string name="activityExampleText">Activity - основной класс, представляющий конкретное представление экрана. Activity может содержать внутри множество Fragment-ов и элементов - View. Android формирует стэк activity, благодаря чему мы можем передвигаться между ними с помощью системной кнопки - назад. Activity может быть запущено и другим приложением, если разработчик добавит такую возможность.</string>
+    <string name="activityTitle">Это новая Activity</string>
+    <string name="fragmentTitle">Это Fragment</string>
+    <string name="fragmentText">класс, который предоставляет похожие на activity возможности, однако сам по себе не является экраном, а является его частью. Обычно используется для часто изменяемых частей activity (например, pager - элемент, который переключает страницы движениями пальцами вправо-влево - каждая страница внутри pager представляется фрагментом). Fragment может содержать в себе другие фрагменты и view, однако Android не предоставляет стэка фрагментов, поэтому системная кнопка “назад” никак не влияет на фрагменты, разработчик должен сам реализовывать стэк, если ему это нужно.</string>
+    <string name="fragmentBtnExampleText">Показать фрагмент</string>
+    <string name="serviceTitle">Это Service</string>
+    <string name="serviceText">служба в Android, выполняющая задачи в фоновом режиме, не имеющая интерфейса. Типичный пример использования - проигрывание музыки в фоновом режиме, исключая блокировку интерфейса.</string>
+    <string name="startServiceBtn">Запустить Service</string>
+    <string name="serviceStopBtn">Остановить Service</string>
+    <string name="intentTitle">Это Intent</string>
+    <string name="intentText">сущность для активации служб или activity. Intent указывает какую activity или службу запустить, что ей передать в качестве входных данных и определяет действие, которое необходимо выполнить.</string>
+    <string name="intentExampleBtn">Использовать Intent</string>
+    <string name="contentproviderTitle">Это ContentProvider</string>
+    <string name="contentProviderText">управляет данными приложениями. Служит для доступа к базе данных и файлам приложения. Другие приложения могут посредством content provider получить доступ к файлам приложения.</string>
+    <string name="contentProviderExampleBtn">Использовать Content Provider</string>
+    <string name="broadcastReceiverTitle">Это Broadcast Receiver</string>
+    <string name="broadcastReceiverText">компонент принимающий определенные сообщения приложению. Типичный пример использования - обработка уведомлений.</string>
+    <string name="broadcastReceiverExampleBtn">Использовать Broadcast Receiver</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="newFragmentText">Это новый fragment</string>
+    <string name="closeFragment">Вернуться в Activity</string>
+    <string name="wifiOn">WiFi ВКЛ</string>
+    <string name="wifiOff">WiFi ВЫКЛ</string>
+</resources>

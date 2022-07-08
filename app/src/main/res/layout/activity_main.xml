@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:padding="8dp"
+        style="@style/textStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/title_text" />
+
+    <Button
+        android:id="@+id/activityBtn"
+        style="@style/btnStyle"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="@string/activityBtnText" />
+
+    <Button
+        android:id="@+id/fragmentBtn"
+        style="@style/btnStyle"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="@string/fragmentBtnText" />
+
+    <Button
+        android:id="@+id/serviceBtn"
+        style="@style/btnStyle"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="@string/serviceBtnText" />
+
+    <Button
+        android:id="@+id/intentBtn"
+        style="@style/btnStyle"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="@string/intentBtnText" />
+
+    <Button
+        android:id="@+id/contentProviderBtn"
+        style="@style/btnStyle"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="@string/contentProviderBtnText" />
+
+    <Button
+        android:id="@+id/broadcastReciverBtn"
+        style="@style/btnStyle"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="@string/broadcastReceiverBtnText"/>
+
+
+</LinearLayout>
